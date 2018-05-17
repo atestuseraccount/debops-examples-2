@@ -15,7 +15,7 @@ After successfull install, the `~/.ansible/content/roles` directory, on the loca
             <namespace>.example-2/
 ```
 
-In the above example, <namespace> is determined by Galaxy CLI based on the resource passed to the `install` command. Suppose this repository is imported into Galaxy under the Galaxy Namespace 'foo', and the user passes a Galaxy resource as follows:
+In the above example, &lt;namespace&gt; is determined by Galaxy CLI based on the resource passed to the `install` command. Suppose this repository is imported into Galaxy under the Galaxy Namespace 'foo', and the user passes a Galaxy resource as follows:
 
 ```
 $ ansible-galaxy-cli content-install -t role foo.debops-examples-2 
